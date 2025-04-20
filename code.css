@@ -1,0 +1,14 @@
+body { 
+	--code-normal: var(--text-normal);
+	--code-comment: var(--text-muted);
+	--code-background: var(--color-base-25);
+}
+
+.markdown-rendered pre {
+	padding: var(--size-4-3) var(--size-4-4) var(--size-4-3);
+}
+
+pre[class*="language-"] {
+    overflow: scroll;
+	padding: var(--size-4-6) var(--size-4-4) var(--size-4-2);
+}

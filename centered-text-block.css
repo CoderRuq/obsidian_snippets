@@ -1,0 +1,8 @@
+.callout.callout[data-callout="centered"] {
+    text-align: center;
+    background: none;
+    border: none;
+}
+
+div[data-callout="centered"].callout > .callout-title { display: none; }
+div[data-callout="centered"].callout > .callout-content { display: contents; }

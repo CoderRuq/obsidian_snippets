@@ -1,0 +1,4 @@
+.theme-light, .theme-dark {
+    --tag-color: var(--color-green);
+    --tag-color-hover: var(--color-green);
+}

@@ -1,0 +1,35 @@
+.callout.callout[data-callout="columns"] {
+    background: transparent;
+    border: none;
+    columns: 2;    
+}
+
+.callout.callout[data-callout-metadata~="3"] {
+    columns: 3;
+}
+
+.is-mobile .callout.callout[data-callout-metadata~="3"] {
+    columns: 2;
+}
+
+.callout.callout[data-callout-metadata~="4"] {
+    columns: 4;
+}
+
+.is-mobile .callout.callout[data-callout-metadata~="4"] {
+    columns: 2;
+}
+
+div[data-callout="columns"].callout > .callout-title { display: none; }
+div[data-callout="columns"].callout > .callout-content { display: contents; }
+
+.markdown-rendered ul { 
+    /* padding: 0 var(--size-4-4); */
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* KUDOS TO SAILKITE */
+.callout[data-callout="columns"] > .callout-content > :is(ol, ul) .list-bullet::after {
+    position: relative;
+}

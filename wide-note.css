@@ -1,0 +1,8 @@
+.wide .markdown-preview-section {
+	max-width: 100% !important;
+}
+
+.wide .obsidian-banner, .banner-image {
+    width: unset;
+    max-width: 100% !important
+}

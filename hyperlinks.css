@@ -1,0 +1,23 @@
+.external-link {
+  background-image: none;
+  padding-right: 0px;
+}
+
+.markdown-rendered .internal-link,
+.cm-s-obsidian span.cm-hmd-internal-link {
+  background-color: hsla(190, 60%, 50%, 0.25);
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.theme-light, .theme-dark {
+  --link-decoration: none;
+  --link-decoration-hover: none;
+}
+
+span.cm-formatting-link-start, span.cm-formatting-link-end {
+  background-color: hsla(290, 60%, 50%, 0.3);
+  border-radius: 4px;
+  padding: 2px;
+}
+

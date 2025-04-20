@@ -1,0 +1,121 @@
+/* Stock Callout Modifications */
+.callout[data-callout="done"] {
+    --callout-icon: clipboard-check;
+}
+
+.callout[data-callout="error"] {
+    --callout-icon: x-octagon;
+}
+
+.callout[data-callout="check"] {
+    --callout-icon: check-circle;
+}
+
+.callout[data-callout="hint"], [data-callout="clue"] {
+    --callout-icon: gem;
+}
+
+.callout[data-callout="abstract"] {
+    --callout-icon: layout-list;
+    --callout-color: var(--callout-info);
+}
+
+.callout[data-callout="tldr"] {
+    --callout-icon: more-horizontal;
+    --callout-color: var(--callout-info);
+}
+
+.callout[data-callout="summary"] {
+    --callout-color: var(--callout-info);
+}
+
+.callout[data-callout="todo"] {
+    --callout-color: var(--callout-success);
+}
+
+.callout[data-callout="important"] {
+    --callout-icon: megaphone;
+}
+
+.callout[data-callout="help"] {
+    --callout-icon: life-buoy;
+}
+
+.callout[data-callout="missing"] {
+    --callout-icon: minimize;
+}
+
+.callout[data-callout="faq"] {
+    --callout-icon: message-circle;
+}
+
+.callout[data-callout="cite"], [data-callout="reference"] {
+    --callout-icon: book;
+}
+
+.callout[data-callout="attention"] {
+    --callout-icon: bell-ring;
+}
+
+.callout[data-callout="warning"] {
+    --callout-icon: alert-circle;
+}
+
+.callout[data-callout="failure"] {
+    --callout-icon: skull;
+}
+
+/* Custom Callouts */
+.callout[data-callout="code"], [data-callout="binary"] {
+    --callout-icon: binary;
+    --callout-color: var(--color-purple-rgb);
+}
+
+.callout[data-callout="command"], [data-callout="configuration"] {
+    --callout-icon: terminal;
+    --callout-color: var(--color-purple-rgb);
+}
+
+.callout[data-callout="pro"], [data-callout="pros"] {
+    --callout-icon: thumbs-up;
+    --callout-color: var(--color-green-rgb);
+}
+
+.callout[data-callout="con"], [data-callout="cons"] {
+    --callout-icon: thumbs-down;
+    --callout-color: var(--color-red-rgb);
+}
+
+.callout[data-callout="secure"], [data-callout="security"] {
+    --callout-icon: lock;
+    --callout-color: var(--color-purple-rgb);
+}
+
+.callout[data-callout="system"], [data-callout="process"] {
+    --callout-icon: cpu;
+    --callout-color: var(--color-purple-rgb);
+}
+
+.callout[data-callout="pin"], [data-callout="announcement"] {
+    --callout-icon: pin;
+    --callout-color: var(--color-orange-rgb);
+}
+
+.callout[data-callout="flag"], [data-callout="checkpoint"], [data-callout="mark"], [data-callout="goal"] {
+    --callout-icon: flag;
+    --callout-color: var(--color-orange-rgb);
+}
+
+.callout[data-callout="link"] {
+    --callout-icon: link;
+    --callout-color: var(--callout-quote);
+}
+
+.callout[data-callout="term"], [data-callout="definition"] {
+    --callout-icon: bookmark;
+}
+
+.callout[data-callout="idea"], [data-callout="concept"] {
+    --callout-icon: lightbulb;
+    --callout-color: var(--callout-tip);
+}

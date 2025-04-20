@@ -1,0 +1,12 @@
+.markdown-rendered blockquote {
+	padding: var(--size-4-3) var(--size-4-3) var(--size-4-3) var(--size-4-6);
+	border-radius: 4px;
+	border-top-style: solid;
+	border-top-width: thin;
+	border-top-color: color-mix(in hsl, var(--blockquote-border-color), black 30%);
+}
+
+body {
+	--blockquote-background-color: var(--color-base-10);
+}
+

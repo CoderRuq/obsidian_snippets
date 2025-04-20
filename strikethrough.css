@@ -1,0 +1,7 @@
+.cm-strikethrough {
+    color: var(--color-base-70);
+}
+
+del {
+    color: var(--color-base-70);
+}

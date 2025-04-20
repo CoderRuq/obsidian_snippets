@@ -1,0 +1,6 @@
+.callout.callout[data-callout="poem"], [data-callout="lyrics"], 
+[data-callout="script"], [data-callout="scripture"] {
+    text-align: center;
+    --callout-icon: scroll;
+    --callout-color: var(--callout-quote);
+}

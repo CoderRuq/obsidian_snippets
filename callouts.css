@@ -1,0 +1,26 @@
+.callout-icon {
+  padding: 0 6px 0 0;
+}
+
+body {
+	    --callout-padding: var(--size-4-4) var(--size-4-3) var(--size-4-4) var(--size-4-4);
+	    --callout-content-padding: var(--size-4-4) 0 0 0;
+}
+
+/* credit to "Rodrigo Morals" */
+.callout.callout[data-callout]{
+    overflow: hidden;
+  --callout-border-color: var(--callout-color);
+  --callout-border-width: 1px;
+  --callout-border-style: solid;
+  border:  var(--callout-border-width) var(--callout-border-style) rgb(var(--callout-border-color), 0.4);
+}
+
+/* remove leading and trailing padding of callout content paragraphs */
+/* Credit to "sailKite" */
+.callout-content > p:first-child {
+    margin-top: 0px;
+}
+.callout-content > p:last-child {
+    margin-bottom: 0px;
+}
